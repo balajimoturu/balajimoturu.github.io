@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Balaji Moturu Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+/* VS Code Effect CSS Below */
+
+/* body {
+    font-family: 'Fira Code', monospace;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+
+.code-window {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.window-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 10px;
+    color: #fff;
+}
+
+.window-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.window-buttons span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+.window-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.code-content {
+    background-color: #1e1e1e;
+    padding: 20px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+pre {
+    margin: 0;
+}
+
+code {
+    color: #d4d4d4;
+} */
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">✨ Balaji Moturu ✨</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+			  <li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
+			  <li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experience</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider owl-carousel">
+	       <div class="slider-item">
+	      	<div class="overlay"></div>
+	         <div class="container col-lg-10 col-sm-10">
+	          <div class="one-third js-fullheight order-md-last img row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Balaji_Image_First_c.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Welcome to my Page!!!</span>
+			            <h1 class="mb-4 mt-3">I am <br><span>Balaji Moturu</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Student    ',
+						'Mentor    ',
+						'Problem Solver    ',
+						'YouTuber    ',
+						'Software Developer    ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <p><a target="_blank" href="https://www.youtube.com/@BalajiMoturu" class="btn btn-primary py-3 px-4">YouTube</a> &nbsp; &nbsp;
+							<a target="_blank" href="https://www.linkedin.com/in/balajimoturu/" class="btn btn-white btn-outline-white py-3 px-4">LinkedIn</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container col-9">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<!-- <img src="images/Circle_About_Pic.png" class="img-fluid rounded b-shadow-a" alt=""> -->
+										 <p><span class="title-s"><b><u>NAME</u></b>: <br></span> <span>Balaji Moturu</span></p>
+										<p><span class="title-s"><b><u>PRESENT ROLE</u></b>: <br></span> <span>Graduate Student</span></p>
+										<p><span class="title-s"><b><u>EXPERIENCE</u></b>: <br></span> <span>1 Year 4 Months</span></p>
+										<p><span class="title-s"><b><u>ADDRESS</u></b>: <br></span> <span>Montreal, Quebec</span></p>
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<img src="images/Circle_About_Pic.png" class="img-fluid rounded b-shadow-a zoom-effect" alt="">
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s"><b><u>SKILLS</u></b>:</p>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<span>Java</span> <span class="pull-right">- 90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<span>Python</span> <span class="pull-right">- 90%</span>
+												<div class="progress">
+												<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<span>C#</span> <span class="pull-right">- 85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<span>Angular</span> <span class="pull-right">- 80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+										</div>
+									</div>
+								
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<span>React</span> <span class="pull-right">- 75%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<span>SQL</span> <span class="pull-right">- 90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+										</div>
+									</div>
+									<br>
+									<span>AI and Machine Learning</span> <span class="pull-right">- 70%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Agile Methodologies</span> <span class="pull-right">- 80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Mathematics</span> <span class="pull-right">- 95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Analytical Thinking</span> <span class="pull-right">- 90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About Me</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Passionate software professional pursuing Masters in Software Engineering, 
+									with a Bachelors degree in Computer Science and experience as a <b><u>Junior Software Engineer at Cognizant Technology Solutions</u></b>. 
+									Proficient in full-stack development, with expertise in Java, Python, C#, Angular, SQL and a track record of successful projects in game development and machine learning. 
+									<b><u>Committed to continuous learning</u></b>, with strong problem-solving skills and adaptability to new technologies.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Software Engineering & Full Stack Development</span></li>
+									<li class="d-flex"><span>Interested In:</span> <span>Software Development, AI & Machine Learning, Data Analytics, Prompt Engineering, Application Development</span></li>
+									<li class="d-flex"><span>Languages:</span> <span>English,  French (Intermediate), Telugu, Hindi, Tamil (Basic)</span></li>
+									<li class="d-flex"><span>Skills:</span> <span><u>Skills including but not limited to:</u> Java, Python, C, Golang, C++, .NET, HTML, CSS, JavaScript, TypeScript, Angular, MySQL, 
+										React, Linux, RESTful API, GitHub, JUnit, Prompt Engineering, Artificial Intelligence, Node.js, Express.js, Mathematics</span></li>
+									<li class="d-flex"><span>Soft Skills:</span> <span>Emotional Intelligence, Conflict Resolution, Adaptability, Creativity, 
+										Analytical Thinking, Communication, Teamwork, Time Management, Critical Thinking, Organizational Skills, Flexibility, Interpersonal Skills</span></li>
+									<li class="d-flex"><span>Avocations:</span> <span>Computer Science Aficionado, Content Creation, Paper Crafts (Origami), Epicure</span></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container col-9">
+
+		<div class="row" id="education-section">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2023 - Present</span>
+					<h2>Masters in Software Engineering</h2>
+					<span class="position">Concordia University</span>
+					<br><br>
+					<h2>Course Work: </h2>
+					<ul>
+						<li>Advanced Programming Practices</li>
+						<li>Software Quality Assurance</li>
+						<li>Programming and Problem Solving (Java)</li>
+						<li>Comparative Study of Programming Languages</li>
+					</ul>
+				</div>
+			</div>
+		
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">2018-2022</span>
+					<h2>Bachelors in Computer Science</h2>
+					<span class="position">Raghu Institute of Technology</span>
+					<br><br>
+					<h2>Course Work: </h2>
+					<ul>
+						<li>Object Oriented Programming</li>
+						<li>Mobile Computing</li>
+						<li>Machine Learning</li>
+						<li>Cryptography and Network Security</li>
+						<li>Database Management Systems</li>
+						<li>Software Project Management</li>
+						<li>Design of Algorithms and Analysis</li>
+						<li>Advanced Data Structures and Algorithms</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+
+			<br><br>
+
+		<div class="row" id="experience-section">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-12">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">September 2022 - July 2023</span>
+						<h2>Junior Software Engineer</h2>
+						<span class="position">COGNIZANT TECHNOLOGY SOLUTIONS (CTS)</span>
+						<p class="mt-4">Cognizant is a pioneer in digital transformation, helping global brands modernize their IT ecosystems, 
+							integrate digital into their business strategies and drive business performance. 
+							<ul>
+								<li>I led a key project from conception to deployment. By optimizing the code and database interactions, I was able to significantly 
+									<b><u>enhance the overall system efficiency by 20%</u></b>, reducing response times and improving user satisfaction.</li>
+								<li>I worked closely with teams from different departments, including QA, design and product management. I personally <b><u>addressed over 50 issues</u></b> by debugging, 
+									writing patches and testing the fixes ensuring that we met our project deadlines without compromising quality.</li>
+								<li>Techniques included optimizing SQL queries, reducing payload sizes and improving data caching strategies. 
+									These efforts collectively led to a noticeable <b><u>reduction in response time by 15%</u></b>, making the application more responsive and user-friendly.</li>
+								<li>I was responsible for reviewing the code written by junior developers. I provided feedback on coding standards, best practices and potential improvements. 
+									This mentoring not only enhanced their skills but also led to a <b><u>significant reduction in the number of bugs</u></b> in our codebase.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-12">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">February 2022 - July 2022</span>
+						<h2>Programmer Analyst Intern</h2>
+						<span class="position">COGNIZANT TECHNOLOGY SOLUTIONS (CTS)</span>
+						<p class="mt-4">Cognizant is a leading digital solutions and services company, 
+							empowering brands to drive business growth and profitability. 
+							<ul>
+								<li>As an intern, I worked on key modules that were critical to the project's success. My responsibilities included writing clean, 
+									efficient code and integrating with existing systems to ensure seamless functionality.</li>
+								<li>By leveraging Angular, I crafted responsive user interfaces that <b><u>slashed load times by 30%</u></b>.
+									This significant enhancement was evident in both user feedback and key performance metrics, underscoring the impact of my frontend development expertise.</li>
+								<li>One of my key contributions was optimizing queries, resulting in a <b><u>75% reduction in query execution times</u></b>. 
+									I analyzed slow-performing queries and restructured them for efficiency, from an average of <b><u>5 seconds to 1.25 seconds</u></b> 
+									and created indexes where necessary, which improved database performance and enabled our applications to respond faster to user requests.</li>
+								<li>I took the initiative to write unit tests for backend components. This <b><u>increased our code coverage by 35%</u></b> significantly 
+									and helped catch bugs early in the development cycle, ensuring our software was reliable and robust.</li>
+								<li>By actively incorporating user feedback, I successfully developed and integrated new features into our web application, 
+									resulting in a <b><u>25% surge in user satisfaction</u></b>. This achievement was a direct outcome of my ability to understand user needs, 
+									design effective solutions, and implement them seamlessly, ultimately enriching the overall user experience.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container col-9">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the my Projects...</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a target="_blank" href="https://github.com/bhsrampage/Warzone_Risk.git" class="block-20 zoom-effect" style="background-image: url('images/Warzone_Build-Pic.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a target="_blank" href="https://github.com/bhsrampage/Warzone_Risk.git">WAR ZONE ARENA - RISK GAME</a></h3>
+				<div class="row justify-content-center mt-10">
+					<div class="col-md-6 text-center ftco-animate">
+						<p><a target="_blank" href="https://github.com/bhsrampage/Warzone_Risk.git" class="btn btn-primary py-3 px-10">Project Link</a></p>
+					</div>
+				</div>
+                <ul>
+					<li><b><u>Technologies Used</u></b>: Java, Git, Javadoc, JUnit, Continuous Integration/Continuous Deployment</li>
+					<li><b><u>Components Involved</u></b>: Developing Strategy, Code Management, Documentation, Testing and Deployment</li>
+					<li>Developed a web game using Advanced Java, incorporating architectural and design patterns for scalability. Managed over 150 Git commits to ensure version control integrity &
+						generated documentation for 100+ classes using Javadoc. Executed 50+ unit tests with JUnit to validate game functionalities and integration.</li>
+					
+				</ul>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a class="block-20 zoom-effect" style="background-image: url('images/Sports_Proj_Swagger.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a style="cursor: default;">SPORTS EVENT MANAGEMENT</a></h3>
+			  <ul>
+				<li><b><u>Technologies Used</u></b>: C#, ASP.NET Core, Microservices, Azure, Swagger, NUnit, Moq</li>
+				<li><b><u>Components Involved</u></b>: Microservice Architecture, API Development, Cloud Deployment, Testing and Documentation</li>
+				<li>Developed a Sports Event Management System using C# and ASP.NET Core. Implemented over 5 microservices, including sports, player, and participation services, 
+					each with independent deployment on Azure. Managed API documentation with Swagger and ensured robust testing using NUnit and Moq, achieving 85% code coverage.</li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a class="block-20 zoom-effect" style="background-image: url('images/Balaji_Meet_And_Eat.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a style="cursor: default;">BALAJI'S MEET 'N' EAT RESTAURANT MANAGEMENT SYSTEM</a></h3>
+                <!-- <p>Technologies Used: </p> -->
+				<ul>
+					<li><b><u>Technologies Used</u></b>: .NET, Angular and MS SQL Server</li>
+					<li><b><u>Components Involved</u></b>: Management System, Microservices, Web Application, Full Stack Integration, Database Management</li>
+					<li>Spearheaded the development of the restaurant management system, focusing on implementing microservices architecture for enhanced scalability. 
+						Managed the full project lifecycle, including planning, design and development of frontend, backend and database components. 
+						Implemented critical features such as dynamic menu display, customer reviews, and a robust ordering system.</li>
+				</ul>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a class="block-20 zoom-effect" style="background-image: url('images/WeatherPrediction_Proj_Table.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a style="cursor: default;">WEATHER PREDICTION USING MACHINE LEARNING</a></h3>
+				  <ul>
+					<li><b><u>Technologies Used</u></b>: Python, Jupyter Notebook, Scikit-learn, Pandas and NumPy</li>
+					<li><b><u>Components Involved</u></b>: Data Collection and Analysis, Data Processing, Model Development, Cross-validation Techniques, Exploratory Data Analysis (EDA)</li>
+					<li>Developed a weather prediction system using various machine learning algorithms in Python such as Decision Trees, Random Forest, Naive Bayes and So on. 
+						Conducted extensive Exploratory Data Analysis (EDA) using Jupyter Notebook to uncover insights from data trends. Implemented cross-validation techniques, 
+						and integrated weather data sources for continuous model training.</li>
+				</ul>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a class="block-20 zoom-effect" style="background-image: url('images/Traffic.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a style="cursor: default;">REAL-TIME TRAFFIC MONITORING</a></h3>
+				  <ul>
+					  <li><b><u>Technologies Used</u></b>: Python, Java, HTML/CSS, JavaScript, Angular, RESTful API, SQL, NoSQL, Linux, Algorithms and Data Structures, NumPy, Power BI, Artificial Intelligence</li>
+					  <li><b><u>Components Involved</u></b>: Data Collection, Data Processing, Traffic Prediction, Web Application, API Integration, Database Management, Analytics and Reporting</li>
+					  <li>The project aimed to develop a system that could monitor & predict traffic patterns in real-time, 
+						  enabling traffic management centers to make data-driven decisions and improve traffic flow.</li>
+					  
+				  </ul>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+				  <h3 class="heading"><a style="cursor: default;">
+						<span>Succesfully finished</span> <span class="number" data-number="9"> 0</span> <span>+ Projects</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  </a></h3>
+				  <ul>
+					<li><b><u>Relating but not limited to</u></b>: <br>
+						<ul>
+							<li>Google Extension</li>
+							<li>Clojure</li>
+							<li>Erlang</li>
+							<li>Buildbox</li>
+							<li>... and More</li>
+						</ul>
+					
+				</ul>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <span>More than</span>
+				<strong class="number" data-number="5">0</strong>
+                <span>Programming Languages</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+				<span>Built more than</span>
+                <strong class="number" data-number="9">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+				<span>Guided more than</span>
+                <strong class="number" data-number="15">0</strong>
+                <span>Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+				<span>Prioritizing</span>
+                <!-- <strong class="number" data-number="100">0</strong> -->
+				<!-- <strong class="number" data-number="10">0</strong><span>+</span> -->
+                <strong class="number">Efficiency</strong>
+				<span>throughout my journey</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" >
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 ftco-animate text-center">
+						<div class="heading">
+							<h2> I excel at solving intricate business problems and revealing meaningful stories concealed in data.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+				<a href="mailto:balajimoturu2000@gmail.com"><div class="icon d-flex align-items-center justify-content-center">
+					<span class="icon-paper-plane"></span>
+				</div></a>
+				<h3 class="mb-4">Email Address</h3>
+			  <p><a href="mailto:balajimoturu2000@gmail.com">balajimoturu2000@gmail.com</a></p>
+			</div>
+				
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+					<span class="icon-map-signs"></span>
+				</div>
+				<h3 class="mb-4">Address</h3>
+			  <p>Montreal, QC</p>
+			</div>
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Availability</h3>
+	            <p>Seeking COOP opportunities</p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question? <br> OR <br> Say Something <br><div style="height: 15px;"></div></span> <a target="_blank" href="https://forms.gle/1A4hCTthkbfsjg7NA" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a target="_blank" href="https://www.youtube.com/@BalajiMoturu"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a target="_blank" href="https://www.linkedin.com/in/balajimoturu/"><span class="icon-linkedin"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
